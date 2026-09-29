@@ -1,12 +1,3 @@
----
-title: Student Wellbeing Companion
-emoji: 🕯️
-colorFrom: purple
-colorTo: yellow
-sdk: docker
-app_port: 7860
----
-
 # Student Wellbeing Companion
 
 A cozy check-in app: students log mood, pressure, sleep, study, water and movement.
