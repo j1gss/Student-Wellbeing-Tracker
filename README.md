@@ -53,7 +53,6 @@ frontend/
   index.html            the whole interface
 docs/                   images used in this README
 Dockerfile              container build
-render.yaml             Render deployment blueprint
 ```
 
 ## Run it locally
@@ -105,7 +104,7 @@ Nine tests cover missing tokens, wrong and weak passwords, duplicate usernames, 
 
 ## Deploy
 
-- **Render (free):** push the repo to GitHub or GitLab, choose New, then Blueprint, and select the repo. `render.yaml` sets it up. Free services sleep when idle, and the SQLite file is wiped on restart.
+- **Render (free):** push the repo to GitHub or GitLab, choose New, then Blueprint, and select the repo. Free services sleep when idle, and the SQLite file is wiped on restart.
 - **Docker:** `docker build -t wellbeing .` then `docker run -p 7860:7860 wellbeing`.
 - **Quick public link from your laptop:** `cloudflared tunnel --url http://localhost:8000`.
 
